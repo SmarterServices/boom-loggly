@@ -1,14 +1,14 @@
-micro_error
+boom-loggly
 ===
 Description: Error wrapper that logs to loggly and outputs a boom error object
 
 ##Getting started:
 
-	npm install micro_error --save
+	npm install boom-loggly --save
 Usage:	
 	
-	var micro_error = require('micro_error')
-	var e = new micro_error({
+	var boom-loggly = require('boom-loggly')
+	var e = new boom-loggly({
 		loggly:{
         token:'',
         subdomain:'',
@@ -20,7 +20,7 @@ Usage:
 	
 ###constructor params:
 
-because micro error post to loggly when an error happens you need to include loggly object for your account.
+because boom-loggly post to loggly when an error happens you need to include loggly object for your account.
 
 ###Method:
 addError()
